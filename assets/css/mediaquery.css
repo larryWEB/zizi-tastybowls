@@ -1,0 +1,315 @@
+@media (min-width: 768px) {
+
+
+      .welcome-des-text{
+         width:550px;
+      }
+      
+      
+         
+         #menu-bar{
+         transition:none;
+         }
+          
+         
+            .home-img{
+            width:100%;
+               height: 100%;
+             z-index:-10;
+            filter:brightness(50%);
+            top:0px;
+            position:absolute;
+              animation:zomInOut 12s linear infinite;
+            }
+            
+            
+                 
+            .about-img{
+             width:80%;
+             position:relative;
+             top:25px;
+                height:500px
+            }
+            
+                 .about-details{
+             text-align:center;
+             padding:60px;
+            }
+            
+            
+            .about-head{
+             padding:20px;
+             font-family: 'Dancing Script', cursive;
+             font-size:40px;
+                position:relative;
+                top:40px;
+            }
+            
+            
+            .learn{
+             margin-top:-15px;
+             width:130px;
+             height:40px;
+           
+             font-weight:bolder;
+             border-radius:5px;
+             font-size:14px;
+             background-color:black;
+            }
+            
+            
+            .news-head{
+           font-family: 'Dancing Script', cursive;
+          font-size:27px;
+         color:white;
+          position:relative;
+         top:55px;
+         text-align:center;
+         }
+         
+         .news-details{
+         font-size:14px;
+         position:relative;
+         top:80px;
+         text-align:center;
+         }
+         
+         form{
+         display:flex;
+         flex-direction:column;
+         justify-content:center;
+         align-items:center;
+            position:relative;
+         top:50px;
+         }
+                 
+                 
+             }
+         
+         
+         @media (min-width: 1024px) {
+   
+   .logo{
+     left:50px;
+   }
+   
+   
+               
+    #order{
+     background-color:var(--other-color);
+     width:131px;
+     line-height:2;
+     border-radius:5px;
+    }
+   
+    #order a{
+     color:var(--my-color);
+    }
+     
+         .menu-btns{
+          visibility:hidden;
+         }
+         
+         .nav-social{
+          visibility:hidden;
+           position:absolute;
+         }
+          
+         #menu-bar{
+         visibility: visible;
+           display:flex;
+           flex-direction:row;
+           position:fixed;
+           top:53px;
+           gap:5px;
+           height:0;
+           justify-content:end;
+          align-items:end;
+          right:50px;
+          transition:none;
+         }
+         
+         
+         
+         .nav-link a{
+          text-decoration:none;
+                  color:var(--other-color);
+         }
+         
+         .nav-link{
+          display:inline-flex;
+          justify-content:end;
+          align-items:end;
+          z-index:1;
+          visibility: visible;
+         }
+          
+         .slide{
+           visibility: visible;
+          left:-40px;
+         }
+   
+   
+               .about{
+                     display:flex;
+                     flex-direction:row;
+                     margin-top:300px;
+                    
+               }
+   
+               .about-details{
+                     width:400px;
+               }
+   
+   .about-img{
+         width:400px;
+         height:400px;
+   }
+   
+               
+         .manage-img-card{
+         display:flex;
+         flex-direction:row;
+         gap:120px;
+          margin-top:55px;
+         }
+         
+         .manage-learn{
+         margin-top:55px;
+         width:130px;
+         height:40px;
+         font-weight:bolder;
+         border-radius:5px;
+         font-size:14px;
+         background-color:white;
+         }
+         
+         
+         .service-container{
+         margin-top:20px;
+         display:grid;
+         grid-template-columns: repeat(2,320px);
+         justify-content:center;
+         align-items:center;
+         gap:80px;
+         }
+         
+         
+         .menu-img-card{
+         display:grid;
+         grid-template-columns: repeat(2,320px);
+         justify-content:center;
+         align-items:center;
+         gap:80px;
+         margin-top:30px;
+         }
+         
+         .menu-learn{
+         margin-top:65px;
+         }
+         
+         .foot-card{
+          display:grid;
+         grid-template-columns: repeat(3,280px);
+          justify-content:center;
+         align-items:center;
+         
+         }
+         
+         .foot-left{
+          margin-top:-120px;
+         }
+         
+         .footer-logo{
+          
+         }
+         
+          .follow-us{
+            position:relative;
+           top:30px;
+          }
+         
+         .foot-social{
+              position:relative;
+           top:36px;
+         }
+         
+         .foot-middle{
+           font-size:15px;
+          margin-left:80px;
+         }
+         
+         .contact{
+               position:relative;
+           top:-20px;
+         }
+          
+         .foot-right{
+          margin-left:60px;
+         }
+         
+          .quick-links{
+           position:relative;
+          }
+         
+         .last-card{
+          display:flex;
+           flex-direction:row;
+          justify-content:center;
+          align-items:center;
+         padding:30px;
+         }
+         
+          .copyright{
+            position:absolute;
+           left:130px;
+          }
+          
+          .developer{
+            font-size:14px;
+           position:absolute;
+           right:270px;
+           
+          }
+         
+         
+          
+         }
+         
+         @media (min-width: 1321px) {
+   
+   .about{
+         display:flex;
+           flex-direction:row;
+         margin-top:340px;
+         gap:50px;
+    }
+   
+   
+   
+               .about-details{
+                     width:500px;
+               }
+   
+   .about-img{
+         width:500px;
+         height:500px;
+   }
+   
+   
+               
+   
+   
+               
+         .foot-card{
+          display:grid;
+         grid-template-columns: repeat(3,430px);
+          justify-content:center;
+         align-items:center;
+         gap:3opx;
+         }
+         
+            
+         
+         
+         }
